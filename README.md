@@ -89,3 +89,10 @@ taskApi/
 ├── Program.cs                    # Entry point and service configuration
 ├── appsettings.json              # Configuration file
 ```
+
+## Future Improvements
+
+- Add HTTP error middleware to catch any unexpected unhandled errors and prevent app crashes.
+- Store data in a SQL database instead of a JSON file (introduce repository pattern to manage DB/context operations).
+- Add Swagger doc strings to improve API documentation and ease future development.
+- Add logging to assist with debugging and understanding unexpected behavior.
